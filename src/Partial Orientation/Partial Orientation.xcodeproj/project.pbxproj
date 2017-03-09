@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57DDC6E21E6EBCE1005352EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DDC6E11E6EBCE1005352EF /* AppDelegate.swift */; };
+		57DDC6E41E6EBCE1005352EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DDC6E31E6EBCE1005352EF /* ViewController.swift */; };
+		57DDC6E71E6EBCE1005352EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57DDC6E51E6EBCE1005352EF /* Main.storyboard */; };
+		57DDC6E91E6EBCE1005352EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57DDC6E81E6EBCE1005352EF /* Assets.xcassets */; };
+		57DDC6EC1E6EBCE1005352EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57DDC6EA1E6EBCE1005352EF /* LaunchScreen.storyboard */; };
+		57DDC6F71E6EBCE1005352EF /* Partial_OrientationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DDC6F61E6EBCE1005352EF /* Partial_OrientationTests.swift */; };
+		57DDC7021E6EBCE1005352EF /* Partial_OrientationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DDC7011E6EBCE1005352EF /* Partial_OrientationUITests.swift */; };
+		57DDC7101E6ECB68005352EF /* AllOrientationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DDC70F1E6ECB68005352EF /* AllOrientationViewController.swift */; };
+		57DDC7121E6ECC6B005352EF /* OnlyPortraitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DDC7111E6ECC6B005352EF /* OnlyPortraitViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57DDC6F31E6EBCE1005352EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57DDC6D61E6EBCE0005352EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57DDC6DD1E6EBCE0005352EF;
+			remoteInfo = "Partial Orientation";
+		};
+		57DDC6FE1E6EBCE1005352EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57DDC6D61E6EBCE0005352EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57DDC6DD1E6EBCE0005352EF;
+			remoteInfo = "Partial Orientation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57DDC6DE1E6EBCE1005352EF /* Partial Orientation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Partial Orientation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57DDC6E11E6EBCE1005352EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57DDC6E31E6EBCE1005352EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57DDC6E61E6EBCE1005352EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57DDC6E81E6EBCE1005352EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57DDC6EB1E6EBCE1005352EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57DDC6ED1E6EBCE1005352EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57DDC6F21E6EBCE1005352EF /* Partial OrientationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Partial OrientationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57DDC6F61E6EBCE1005352EF /* Partial_OrientationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Partial_OrientationTests.swift; sourceTree = "<group>"; };
+		57DDC6F81E6EBCE1005352EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57DDC6FD1E6EBCE1005352EF /* Partial OrientationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Partial OrientationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57DDC7011E6EBCE1005352EF /* Partial_OrientationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Partial_OrientationUITests.swift; sourceTree = "<group>"; };
+		57DDC7031E6EBCE1005352EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57DDC70F1E6ECB68005352EF /* AllOrientationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllOrientationViewController.swift; sourceTree = "<group>"; };
+		57DDC7111E6ECC6B005352EF /* OnlyPortraitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlyPortraitViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57DDC6DB1E6EBCE0005352EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DDC6EF1E6EBCE1005352EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DDC6FA1E6EBCE1005352EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57DDC6D51E6EBCE0005352EF = {
+			isa = PBXGroup;
+			children = (
+				57DDC6E01E6EBCE1005352EF /* Partial Orientation */,
+				57DDC6F51E6EBCE1005352EF /* Partial OrientationTests */,
+				57DDC7001E6EBCE1005352EF /* Partial OrientationUITests */,
+				57DDC6DF1E6EBCE1005352EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57DDC6DF1E6EBCE1005352EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57DDC6DE1E6EBCE1005352EF /* Partial Orientation.app */,
+				57DDC6F21E6EBCE1005352EF /* Partial OrientationTests.xctest */,
+				57DDC6FD1E6EBCE1005352EF /* Partial OrientationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57DDC6E01E6EBCE1005352EF /* Partial Orientation */ = {
+			isa = PBXGroup;
+			children = (
+				57DDC6E11E6EBCE1005352EF /* AppDelegate.swift */,
+				57DDC6E31E6EBCE1005352EF /* ViewController.swift */,
+				57DDC6E51E6EBCE1005352EF /* Main.storyboard */,
+				57DDC70F1E6ECB68005352EF /* AllOrientationViewController.swift */,
+				57DDC7111E6ECC6B005352EF /* OnlyPortraitViewController.swift */,
+				57DDC6E81E6EBCE1005352EF /* Assets.xcassets */,
+				57DDC6EA1E6EBCE1005352EF /* LaunchScreen.storyboard */,
+				57DDC6ED1E6EBCE1005352EF /* Info.plist */,
+			);
+			path = "Partial Orientation";
+			sourceTree = "<group>";
+		};
+		57DDC6F51E6EBCE1005352EF /* Partial OrientationTests */ = {
+			isa = PBXGroup;
+			children = (
+				57DDC6F61E6EBCE1005352EF /* Partial_OrientationTests.swift */,
+				57DDC6F81E6EBCE1005352EF /* Info.plist */,
+			);
+			path = "Partial OrientationTests";
+			sourceTree = "<group>";
+		};
+		57DDC7001E6EBCE1005352EF /* Partial OrientationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57DDC7011E6EBCE1005352EF /* Partial_OrientationUITests.swift */,
+				57DDC7031E6EBCE1005352EF /* Info.plist */,
+			);
+			path = "Partial OrientationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57DDC6DD1E6EBCE0005352EF /* Partial Orientation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57DDC7061E6EBCE1005352EF /* Build configuration list for PBXNativeTarget "Partial Orientation" */;
+			buildPhases = (
+				57DDC6DA1E6EBCE0005352EF /* Sources */,
+				57DDC6DB1E6EBCE0005352EF /* Frameworks */,
+				57DDC6DC1E6EBCE0005352EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Partial Orientation";
+			productName = "Partial Orientation";
+			productReference = 57DDC6DE1E6EBCE1005352EF /* Partial Orientation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57DDC6F11E6EBCE1005352EF /* Partial OrientationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57DDC7091E6EBCE1005352EF /* Build configuration list for PBXNativeTarget "Partial OrientationTests" */;
+			buildPhases = (
+				57DDC6EE1E6EBCE1005352EF /* Sources */,
+				57DDC6EF1E6EBCE1005352EF /* Frameworks */,
+				57DDC6F01E6EBCE1005352EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57DDC6F41E6EBCE1005352EF /* PBXTargetDependency */,
+			);
+			name = "Partial OrientationTests";
+			productName = "Partial OrientationTests";
+			productReference = 57DDC6F21E6EBCE1005352EF /* Partial OrientationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57DDC6FC1E6EBCE1005352EF /* Partial OrientationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57DDC70C1E6EBCE1005352EF /* Build configuration list for PBXNativeTarget "Partial OrientationUITests" */;
+			buildPhases = (
+				57DDC6F91E6EBCE1005352EF /* Sources */,
+				57DDC6FA1E6EBCE1005352EF /* Frameworks */,
+				57DDC6FB1E6EBCE1005352EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57DDC6FF1E6EBCE1005352EF /* PBXTargetDependency */,
+			);
+			name = "Partial OrientationUITests";
+			productName = "Partial OrientationUITests";
+			productReference = 57DDC6FD1E6EBCE1005352EF /* Partial OrientationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57DDC6D61E6EBCE0005352EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Creative Chaos (Pvt.) Ltd.";
+				TargetAttributes = {
+					57DDC6DD1E6EBCE0005352EF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					57DDC6F11E6EBCE1005352EF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57DDC6DD1E6EBCE0005352EF;
+					};
+					57DDC6FC1E6EBCE1005352EF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57DDC6DD1E6EBCE0005352EF;
+					};
+				};
+			};
+			buildConfigurationList = 57DDC6D91E6EBCE0005352EF /* Build configuration list for PBXProject "Partial Orientation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57DDC6D51E6EBCE0005352EF;
+			productRefGroup = 57DDC6DF1E6EBCE1005352EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57DDC6DD1E6EBCE0005352EF /* Partial Orientation */,
+				57DDC6F11E6EBCE1005352EF /* Partial OrientationTests */,
+				57DDC6FC1E6EBCE1005352EF /* Partial OrientationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57DDC6DC1E6EBCE0005352EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DDC6EC1E6EBCE1005352EF /* LaunchScreen.storyboard in Resources */,
+				57DDC6E91E6EBCE1005352EF /* Assets.xcassets in Resources */,
+				57DDC6E71E6EBCE1005352EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DDC6F01E6EBCE1005352EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DDC6FB1E6EBCE1005352EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57DDC6DA1E6EBCE0005352EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DDC7101E6ECB68005352EF /* AllOrientationViewController.swift in Sources */,
+				57DDC6E41E6EBCE1005352EF /* ViewController.swift in Sources */,
+				57DDC7121E6ECC6B005352EF /* OnlyPortraitViewController.swift in Sources */,
+				57DDC6E21E6EBCE1005352EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DDC6EE1E6EBCE1005352EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DDC6F71E6EBCE1005352EF /* Partial_OrientationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DDC6F91E6EBCE1005352EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DDC7021E6EBCE1005352EF /* Partial_OrientationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57DDC6F41E6EBCE1005352EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57DDC6DD1E6EBCE0005352EF /* Partial Orientation */;
+			targetProxy = 57DDC6F31E6EBCE1005352EF /* PBXContainerItemProxy */;
+		};
+		57DDC6FF1E6EBCE1005352EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57DDC6DD1E6EBCE0005352EF /* Partial Orientation */;
+			targetProxy = 57DDC6FE1E6EBCE1005352EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57DDC6E51E6EBCE1005352EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57DDC6E61E6EBCE1005352EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57DDC6EA1E6EBCE1005352EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57DDC6EB1E6EBCE1005352EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57DDC7041E6EBCE1005352EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57DDC7051E6EBCE1005352EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57DDC7071E6EBCE1005352EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Partial Orientation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.csquareonline.Partial-Orientation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		57DDC7081E6EBCE1005352EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Partial Orientation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.csquareonline.Partial-Orientation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		57DDC70A1E6EBCE1005352EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Partial OrientationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.csquareonline.Partial-OrientationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Partial Orientation.app/Partial Orientation";
+			};
+			name = Debug;
+		};
+		57DDC70B1E6EBCE1005352EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Partial OrientationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.csquareonline.Partial-OrientationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Partial Orientation.app/Partial Orientation";
+			};
+			name = Release;
+		};
+		57DDC70D1E6EBCE1005352EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Partial OrientationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.csquareonline.Partial-OrientationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Partial Orientation";
+			};
+			name = Debug;
+		};
+		57DDC70E1E6EBCE1005352EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Partial OrientationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.csquareonline.Partial-OrientationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Partial Orientation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57DDC6D91E6EBCE0005352EF /* Build configuration list for PBXProject "Partial Orientation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DDC7041E6EBCE1005352EF /* Debug */,
+				57DDC7051E6EBCE1005352EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57DDC7061E6EBCE1005352EF /* Build configuration list for PBXNativeTarget "Partial Orientation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DDC7071E6EBCE1005352EF /* Debug */,
+				57DDC7081E6EBCE1005352EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57DDC7091E6EBCE1005352EF /* Build configuration list for PBXNativeTarget "Partial OrientationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DDC70A1E6EBCE1005352EF /* Debug */,
+				57DDC70B1E6EBCE1005352EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57DDC70C1E6EBCE1005352EF /* Build configuration list for PBXNativeTarget "Partial OrientationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DDC70D1E6EBCE1005352EF /* Debug */,
+				57DDC70E1E6EBCE1005352EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57DDC6D61E6EBCE0005352EF /* Project object */;
+}

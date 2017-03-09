@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bCs-qX-1GW">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="HH3-vb-ZYU">
+            <objects>
+                <navigationController id="bCs-qX-1GW" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="12Z-PV-RZd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="7w0-Cv-N1t">
+                        <rect key="frame" x="0.0" y="436" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="xni-mg-6ch"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DBp-Ax-2ow" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-938" y="134"/>
+        </scene>
+        <!--1st View Controller (Portrait)-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="1st View Controller (Portrait)" id="BYZ-38-t0r" customClass="ViewController" customModule="Partial_Orientation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5OT-Gg-xi8">
+                                <rect key="frame" x="145" y="225" width="30" height="30"/>
+                                <state key="normal" title="&gt;"/>
+                                <connections>
+                                    <segue destination="fkc-1T-IWj" kind="show" id="ibe-dR-QHu"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1st View Controller (Portrait)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrH-78-iZz">
+                                <rect key="frame" x="52" y="260" width="216" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5OT-Gg-xi8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="99L-tf-KSz"/>
+                            <constraint firstItem="wrH-78-iZz" firstAttribute="top" secondItem="5OT-Gg-xi8" secondAttribute="bottom" constant="5" id="Pi0-gI-xQ0"/>
+                            <constraint firstItem="wrH-78-iZz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="txb-cD-IZg"/>
+                            <constraint firstItem="5OT-Gg-xi8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vlB-jj-0pe"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="1st View Controller (Portrait)" id="JXh-fa-l6u"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-150" y="133.75"/>
+        </scene>
+        <!--2nd View Controller (All Orientation)-->
+        <scene sceneID="orw-tl-Gu7">
+            <objects>
+                <viewController title="2nd View Controller (All Orientation)" modalTransitionStyle="flipHorizontal" id="fkc-1T-IWj" customClass="AllOrientationViewController" customModule="Partial_Orientation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TwY-DM-1hQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="JML-1k-Kbs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yvg-Eg-nv7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mf3-dX-Sth">
+                                <rect key="frame" x="145" y="225" width="30" height="30"/>
+                                <state key="normal" title="&gt;"/>
+                                <connections>
+                                    <segue destination="kjM-OP-IrK" kind="show" id="1YJ-6U-Hl9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2nd View Controller (All Orientation)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QoJ-ed-AbW">
+                                <rect key="frame" x="23" y="260" width="275" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Mf3-dX-Sth" firstAttribute="centerY" secondItem="Yvg-Eg-nv7" secondAttribute="centerY" id="6TK-Uw-1xp"/>
+                            <constraint firstItem="QoJ-ed-AbW" firstAttribute="top" secondItem="Mf3-dX-Sth" secondAttribute="bottom" constant="5" id="Eru-BF-QQK"/>
+                            <constraint firstItem="Mf3-dX-Sth" firstAttribute="centerX" secondItem="Yvg-Eg-nv7" secondAttribute="centerX" id="U2p-3R-waW"/>
+                            <constraint firstItem="QoJ-ed-AbW" firstAttribute="centerX" secondItem="Yvg-Eg-nv7" secondAttribute="centerX" id="rNs-ye-xRH"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IoJ-oh-ZnW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="615" y="134"/>
+        </scene>
+        <!--3rd View Controller (Portrait)-->
+        <scene sceneID="Rdz-kZ-Ize">
+            <objects>
+                <viewController title="3rd View Controller (Portrait)" modalTransitionStyle="crossDissolve" id="kjM-OP-IrK" customClass="OnlyPortraitViewController" customModule="Partial_Orientation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hDV-CQ-OUC"/>
+                        <viewControllerLayoutGuide type="bottom" id="VqP-Bc-Ien"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VdC-11-1Hr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3rd View Controller (Portrait)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZVL-P3-mMU">
+                                <rect key="frame" x="50" y="230" width="220" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZVL-P3-mMU" firstAttribute="centerY" secondItem="VdC-11-1Hr" secondAttribute="centerY" id="7Yk-nF-FYh"/>
+                            <constraint firstItem="ZVL-P3-mMU" firstAttribute="centerX" secondItem="VdC-11-1Hr" secondAttribute="centerX" id="YIy-4g-wwR"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iRL-Jg-HpQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1365" y="134"/>
+        </scene>
+    </scenes>
+</document>
