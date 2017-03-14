@@ -12,7 +12,7 @@
         <!--Navigation Controller-->
         <scene sceneID="HH3-vb-ZYU">
             <objects>
-                <navigationController id="bCs-qX-1GW" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="MainNavigationController" id="bCs-qX-1GW" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="12Z-PV-RZd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -29,10 +29,10 @@
             </objects>
             <point key="canvasLocation" x="-938" y="134"/>
         </scene>
-        <!--1st View Controller (Portrait)-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="1st View Controller (Portrait)" id="BYZ-38-t0r" customClass="ViewController" customModule="Partial_Orientation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" title="1st View Controller (Portrait)" id="BYZ-38-t0r" userLabel="View Controller" customClass="ViewController" customModule="Partial_Orientation" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -43,6 +43,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5OT-Gg-xi8">
                                 <rect key="frame" x="145" y="225" width="30" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="NavigateButtonVC"/>
                                 <state key="normal" title="&gt;"/>
                                 <connections>
                                     <segue destination="fkc-1T-IWj" kind="show" id="ibe-dR-QHu"/>
@@ -69,10 +70,10 @@
             </objects>
             <point key="canvasLocation" x="-150" y="133.75"/>
         </scene>
-        <!--2nd View Controller (All Orientation)-->
+        <!--All Orientation-->
         <scene sceneID="orw-tl-Gu7">
             <objects>
-                <viewController title="2nd View Controller (All Orientation)" modalTransitionStyle="flipHorizontal" id="fkc-1T-IWj" customClass="AllOrientationViewController" customModule="Partial_Orientation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AllOrientationViewController" title="2nd View Controller (All Orientation)" modalTransitionStyle="flipHorizontal" id="fkc-1T-IWj" userLabel="All Orientation" customClass="AllOrientationViewController" customModule="Partial_Orientation" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TwY-DM-1hQ"/>
                         <viewControllerLayoutGuide type="bottom" id="JML-1k-Kbs"/>
@@ -83,6 +84,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mf3-dX-Sth">
                                 <rect key="frame" x="145" y="225" width="30" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="NavigateButtonAOVC"/>
                                 <state key="normal" title="&gt;"/>
                                 <connections>
                                     <segue destination="kjM-OP-IrK" kind="show" id="1YJ-6U-Hl9"/>
@@ -108,10 +110,10 @@
             </objects>
             <point key="canvasLocation" x="615" y="134"/>
         </scene>
-        <!--3rd View Controller (Portrait)-->
+        <!--Only Portrait-->
         <scene sceneID="Rdz-kZ-Ize">
             <objects>
-                <viewController title="3rd View Controller (Portrait)" modalTransitionStyle="crossDissolve" id="kjM-OP-IrK" customClass="OnlyPortraitViewController" customModule="Partial_Orientation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OnlyPortraitViewController" title="3rd View Controller (Portrait)" modalTransitionStyle="crossDissolve" id="kjM-OP-IrK" userLabel="Only Portrait" customClass="OnlyPortraitViewController" customModule="Partial_Orientation" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hDV-CQ-OUC"/>
                         <viewControllerLayoutGuide type="bottom" id="VqP-Bc-Ien"/>
